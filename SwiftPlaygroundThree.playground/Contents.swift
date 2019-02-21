@@ -25,3 +25,5 @@ print("My favorite numbers are\(myFavoriteNumber)")
 
 for number in myFavoriteNumber {print("My favorite number is", number)}
 
+let removed = myFavoriteNumber.remove(at: 2)
+print(myFavoriteNumber)
